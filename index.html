@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDGE life_Makers</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+        }
+
+        .card1 {
+            /*margin-top: 4%;*/
+            width: 600px; /* تحديد حجم ثابت لـ card1 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f0f0f0;
+            margin-bottom: 30px; /* زيادة المسافة بين card1 والبطاقات */
+        }
+
+        .card1 img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-direction: row; /* تحديد العرض الأفقي للبطاقات */
+            align-items: center; /* توسيط البطاقات عند استخدام flex-direction: row */
+            margin-bottom: 20px; /* زيادة المسافة بين .card1 و .cards-container */
+        }
+
+        .card {
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f0f0f0;
+            margin-right: 30px; /* زيادة المسافة بين البطاقات الفرعية */
+        }
+
+        .card a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            margin-top: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card1">
+        <img src="Untitled-1.png" alt="صورة">
+    </div>
+
+    <div class="cards-container">
+        <div class="card">
+            <a href="https://www.facebook.com/bccitbccit/?locale=ar_AR" target="_blank">
+                <img src="logo1.jpg" alt="المركز البريطانى بسوهاج">
+                <h2>المركز البريطانى بسوهاج</h2>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.facebook.com/bccitbccit/?locale=ar_AR" target="_blank">
+                <img src="logo1.jpg" alt="المركز البريطانى بسوهاج">
+                <h2>المركز البريطانى بسوهاج</h2>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
