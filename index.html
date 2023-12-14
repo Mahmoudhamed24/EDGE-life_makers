@@ -1,57 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDGE life_Makers</title>
     <style>
         body {
-            padding-top: 10%;
+            margin: 0;
+            padding: 0;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            /*margin: 10px;*/
-            flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         .card1 {
-            width: 70vw;
+            width: 80%;
+            max-width: 600px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 30px;
             border-radius: 8px;
             background-color: #f0f0f0;
-            margin-bottom: 2vh;
+            margin-bottom: 20px;
         }
 
         .card1 img {
             width: 100%;
             height: auto;
-            border-radius: 41px;
-            margin-bottom: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
 
         .cards-container {
-            text-align: center;
             display: flex;
-            flex-direction: row; /* تحديد العرض الأفقي للبطاقات */
-            align-items: center; /* توسيط البطاقات عند استخدام flex-direction: row */
-            margin-bottom: 5vh; /* استخدام وحدة القياس النسبية vh */
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
         }
 
         .card {
-
-            width: 30vw; /* استخدام وحدة القياس النسبية vw */
+            width: 80%;
+            max-width: 300px;
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 10px;
+            padding: 20px;
             border-radius: 8px;
             background-color: #f0f0f0;
-            margin-right: 5vw; /* استخدام وحدة القياس النسبية vw */
+            margin-bottom: 20px;
         }
 
         .card a {
-            display: block;
             text-decoration: none;
             color: inherit;
         }
@@ -60,11 +65,10 @@
             width: 100%;
             height: auto;
             border-radius: 8px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .card h2 {
-            margin-top: 10px;
             color: #333;
         }
     </style>
@@ -74,21 +78,20 @@
     <div class="card1">
         <img src="Untitled-1.png" alt="صورة">
     </div>
+    
+    <div class="header">
+        <h1>الشركات</h1>
+    </div>
 
     <div class="cards-container">
         <div class="card">
-            <a href="https://www.facebook.com/bccitbccit/?locale=ar_AR" target="_blank">
-                <img src="logo1.jpg" alt="المركز البريطانى بسوهاج">
-                <h2>المركز البريطانى بسوهاج</h2>
-            </a>
-        </div>
-        <div class="card">
-            <a href="https://www.facebook.com/bccitbccit/?locale=ar_AR" target="_blank">
-                <img src="logo1.jpg" alt="المركز البريطانى بسوهاج">
+            <a href="https://www.facebook.com/profile.php?id=100079742002757" target="_blank">
+                <img src="logo1.jpeg" alt="المركز البريطانى بسوهاج">
                 <h2>المركز البريطانى بسوهاج</h2>
             </a>
         </div>
     </div>
+    
 
 </body>
 </html>
